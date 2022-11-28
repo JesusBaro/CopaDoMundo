@@ -1,0 +1,66 @@
+*{
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+width: 100%;
+height: 10vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+body{cursor: url("bola.cur"), auto;}
+.divImgHeader{
+    width: 70%;
+    display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+.Headerlogo{
+    width: 7%;
+}
+.background{
+width: 100%;
+height:60vh;
+background-image: url("https://img.freepik.com/fotos-premium/estadio-de-futebol-com-holofotes_163782-3550.jpg?w=2000");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+.Title{
+    width: 15rem;
+    height: 1rem;
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    position: relative;
+    top: 4rem;
+    left: 10rem;
+   
+}
+#Times{
+width: 100%;
+height:170vh;
+background-color: green;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+flex-wrap: wrap;
+}
+.Bandeiras{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+.MainImg{
+    width: 15vw;
+    margin: 2rem;
+    flex-wrap: wrap;
+}
+.MainImg:hover{
+ transform: scale(105%);
+ cursor: pointer;
+
+}
